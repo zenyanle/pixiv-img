@@ -4,7 +4,7 @@ import time
 
 n = 1
 while True:
-    res = re.get('https://api.lolicon.app/setu/v2?proxy=i.pximg.net')
+    res = re.get('https://api.lolicon.app/setu/v2?proxy=api.pixiv.moe/image/i.pximg.net/')
     res.raise_for_status()
     pdata = json.loads(res.text)
 
