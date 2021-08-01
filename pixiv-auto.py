@@ -4,7 +4,7 @@ import time
 
 n = 1
 while True:
-    res = re.get('https://api.lolicon.app/setu/v2?proxy=api.pixiv.moe/image/i.pximg.net/')
+    res = re.get('https://api.lolicon.app/setu/v2?proxy=i.pximg.net')
     res.raise_for_status()
     pdata = json.loads(res.text)
 
@@ -20,6 +20,6 @@ while True:
     with open(f'{name}.{geshi}', 'wb') as file:
         file.write(imgr.content)
 
-    time.sleep(2)
+    time.sleep(3)
     n += 1
     print(f"正在开始第{n}次下载")
