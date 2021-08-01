@@ -4,4 +4,4 @@
 
 图片由api.lolicon.app提供
 
-推荐反代api.pixiv.moe/image/i.pximg.net
+推荐反代api.pixiv.moe/image/i.pximg.net/
